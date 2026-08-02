@@ -1,0 +1,183 @@
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+}
+
+body{
+
+    background:#f5f7fb;
+
+    font-family:"Segoe UI",sans-serif;
+
+}
+
+.container{
+
+    max-width:1400px;
+
+}
+
+h1{
+
+    font-weight:700;
+
+}
+
+.card{
+
+    border:none;
+
+    border-radius:18px;
+
+    transition:.25s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 10px 30px rgba(0,0,0,.12);
+
+}
+
+.card-body{
+
+    padding:30px;
+
+}
+
+h3{
+
+    font-size:22px;
+
+    font-weight:600;
+
+    margin-bottom:10px;
+
+}
+
+.btn{
+
+    border-radius:12px;
+
+    padding:12px;
+
+    font-weight:600;
+
+}
+
+.btn-primary{
+
+    background:#2563eb;
+
+    border:none;
+
+}
+
+.btn-primary:hover{
+
+    background:#1d4ed8;
+
+}
+
+.btn-dark{
+
+    background:#111827;
+
+    border:none;
+
+}
+
+.btn-success{
+
+    background:#16a34a;
+
+    border:none;
+
+}
+
+.progress{
+
+    height:28px;
+
+    border-radius:20px;
+
+    background:#e5e7eb;
+
+}
+
+.progress-bar{
+
+    font-weight:600;
+
+    font-size:14px;
+
+}
+
+.table{
+
+    margin-top:10px;
+
+}
+
+.table th{
+
+    width:170px;
+
+    color:#374151;
+
+}
+
+.table td{
+
+    color:#111827;
+
+    font-weight:600;
+
+}
+
+input[type=file]{
+
+    padding:12px;
+
+}
+
+#status{
+
+    color:#2563eb;
+
+    font-weight:700;
+
+}
+
+#currentFile{
+
+    word-break:break-all;
+
+}
+
+#resultSimilarity{
+
+    color:#16a34a;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+}
+
+.footer{
+
+    text-align:center;
+
+    margin-top:40px;
+
+    color:#6b7280;
+
+}
